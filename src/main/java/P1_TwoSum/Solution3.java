@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Title: Solution3
  * Description:
- * 解法3：用HashMap，时间复杂度O(1)
+ * 解法3：用HashMap，时间复杂度O(n)
  * Runtime: 10ms
  *
  * @author Lin Hui
