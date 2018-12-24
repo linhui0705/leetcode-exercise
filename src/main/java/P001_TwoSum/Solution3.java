@@ -1,4 +1,4 @@
-package P1_TwoSum;
+package P001_TwoSum;
 
 import org.junit.Test;
 
