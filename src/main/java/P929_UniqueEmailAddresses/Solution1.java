@@ -21,7 +21,7 @@ public class Solution1 {
     }
 
     public int numUniqueEmails(String[] emails) {
-        int count = -1;
+        int count = 0;
         Set<String> set = new HashSet<>();
         for (String email : emails) {
             int index = email.indexOf("@");
