@@ -1,5 +1,6 @@
 package P504_Base7;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -13,13 +14,13 @@ import org.junit.Test;
 public class Solution1 {
     @Test
     public void testCase() {
-        System.out.println(convertToBase7(101));
-        System.out.println(convertToBase7(-7));
-        System.out.println(convertToBase7(0));
-        System.out.println(convertToBase7(1));
-        System.out.println(convertToBase7(-1));
-        System.out.println(convertToBase7(8));
-        System.out.println(convertToBase7(-8));
+        Assert.assertEquals("203", convertToBase7(101));
+        Assert.assertEquals("-10", convertToBase7(-7));
+        Assert.assertEquals("0", convertToBase7(0));
+        Assert.assertEquals("1", convertToBase7(1));
+        Assert.assertEquals("-1", convertToBase7(-1));
+        Assert.assertEquals("11", convertToBase7(8));
+        Assert.assertEquals("-11", convertToBase7(-8));
     }
 
     public String convertToBase7(int num) {
