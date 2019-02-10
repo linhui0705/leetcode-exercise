@@ -3,6 +3,7 @@ package P989_AddToArrayFormOfInteger;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -15,6 +16,7 @@ import java.util.List;
  *
  * public void add(int index, E element)
  * 用ArrayList的如上方法插入，可以省去反转的步骤……
+ * 或者使用Collections.reverse(List<?> list)，也可以反转List
  * Get it......
  *
  * @author Lin Hui
@@ -93,11 +95,10 @@ public class Solution1 {
             list.add(result);
         }
         if (plusOne > 0) {
-            ans.add(plusOne);
+            list.add(plusOne);
         }
-        for (int i = list.size() - 1; i >= 0; i--) {
-            ans.add(list.get(i));
-        }
-        return ans;
+
+        Collections.reverse(list);
+        return list;
     }
 }
