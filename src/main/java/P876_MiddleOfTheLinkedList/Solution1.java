@@ -15,17 +15,17 @@ import java.util.List;
  */
 public class Solution1 {
     @Test
-    public void testCase(){
+    public void testCase() {
 
     }
 
     public ListNode middleNode(ListNode head) {
-        ListNode p=head;
-        List<ListNode> list=new ArrayList<>();
-        while(p!=null){
+        ListNode p = head;
+        List<ListNode> list = new ArrayList<>();
+        while (p != null) {
             list.add(p);
-            p=p.next;
+            p = p.next;
         }
-        return list.get(list.size()/2);
+        return list.get(list.size() / 2);
     }
 }
