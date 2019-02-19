@@ -46,7 +46,7 @@ public class Solution1 {
         if (plus == '0') {
             return String.valueOf(chars);
         } else {
-            return "1" + String.valueOf(chars);
+            return plus + String.valueOf(chars);
         }
     }
 }
