@@ -12,7 +12,7 @@ import org.junit.Test;
  */
 public class Solution1 {
     @Test
-    public void testCase(){
+    public void testCase() {
 
     }
 
@@ -20,11 +20,11 @@ public class Solution1 {
         return traversal(root, root.val);
     }
 
-    public boolean traversal(TreeNode root, int val){
-        if(root==null){
+    public boolean traversal(TreeNode root, int val) {
+        if (root == null) {
             return true;
         }
-        if(root.val!=val){
+        if (root.val != val) {
             return false;
         }
         boolean lResult = traversal(root.left, val);
