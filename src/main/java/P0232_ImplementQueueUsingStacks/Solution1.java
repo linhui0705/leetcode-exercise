@@ -1,4 +1,4 @@
-package P232_ImplementQueueUsingStacks;
+package P0232_ImplementQueueUsingStacks;
 
 /**
  * Title: Solution1

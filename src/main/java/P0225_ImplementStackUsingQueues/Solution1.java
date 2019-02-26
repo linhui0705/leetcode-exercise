@@ -1,4 +1,4 @@
-package P225_ImplementStackUsingQueues;
+package P0225_ImplementStackUsingQueues;
 
 /**
  * Title: Solution1
