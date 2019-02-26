@@ -1,4 +1,4 @@
-package P141_LinkedListCycle;
+package P0141_LinkedListCycle;
 
 import org.junit.Test;
 
