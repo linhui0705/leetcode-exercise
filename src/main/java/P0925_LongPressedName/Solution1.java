@@ -27,10 +27,8 @@ public class Solution1 {
         while (i < name.length() && j < typed.length()) {
             if (name.charAt(i) == typed.charAt(j)) {
                 i++;
-                j++;
-            } else {
-                j++;
             }
+            j++;
         }
         while (j < typed.length() && name.charAt(i - 1) == typed.charAt(j)) {
             j++;
