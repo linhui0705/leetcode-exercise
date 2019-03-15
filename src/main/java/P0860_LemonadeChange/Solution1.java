@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Title: Solution1
  * Description:
- * 顾客排队买柠檬，数组元素为每个顾客手里的钞票金额。判断能否给每个顾客找钱。
+ * 顾客排队买柠檬水，数组元素为每个顾客手里的钞票金额。判断能否给每个顾客找钱。
  * 贪心，比较水吧，尽可能把最大面额的钱找回给顾客，用if-else和switch-case条件分支来解。
  *
  * @author Lin Hui
