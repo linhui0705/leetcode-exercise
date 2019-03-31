@@ -40,8 +40,8 @@ public class Solution1 {
         List<Boolean> ans = new ArrayList<>();
         int total = 0;
         for (int i = 0; i < A.length; i++) {
-            total = ((total << 1) + A[i]) % 10;
-            ans.add(total % 5 == 0);
+            total = ((total << 1) + A[i]) % 5;
+            ans.add(total == 0);
         }
         return ans;
     }
