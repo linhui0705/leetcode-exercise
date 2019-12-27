@@ -1,4 +1,4 @@
-package P122_BestTimeToBuyAndSellStockII;
+package P0122_BestTimeToBuyAndSellStockII;
 
 import org.junit.Assert;
 import org.junit.Test;
