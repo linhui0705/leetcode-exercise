@@ -1,4 +1,4 @@
-package P5295_FindNUniqueIntegersSumUpToZero;
+package P1304_FindNUniqueIntegersSumUpToZero;
 
 import org.junit.Assert;
 import org.junit.Test;
