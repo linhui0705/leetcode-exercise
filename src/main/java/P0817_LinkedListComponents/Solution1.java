@@ -28,8 +28,8 @@ public class Solution1 {
             set.add(i);
         }
         while (null != p) {
-            //若链表当前结点不存在于数组G，或当前结点的后置结点为空指针
-            if (!set.contains(p.val) || null == p.next) {
+            //若当前结点p存在于子集G，而p的后置结点为空指针，或p结点的值不存在于子集G
+            if (set.contains(p.val) && (null == p.next || !set.contains(p.next.val))) {
                 ans++;
             }
             p = p.next;
