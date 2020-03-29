@@ -27,6 +27,7 @@ public class Solution1 {
             if (nums[i] == val) {
                 ans++;
             } else {
+                //后面的元素前移覆盖
                 nums[i - ans] = nums[i];
             }
         }
