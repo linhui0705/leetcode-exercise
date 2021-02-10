@@ -7,7 +7,7 @@ import org.junit.Test;
  * Title: Solution1
  * Description:
  * 给定一个m*n的二维数组，元素accounts[i][j]指的是第i个土豪在第j个银行的资产。返回最壕的资产。
- * 题目的本质就是返回最大的一行的和
+ * 题目的本质就是返回每行求和后取最大值
  *
  * @author Lin Hui
  * Created on 2021/2/10 10:34:03
