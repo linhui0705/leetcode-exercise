@@ -9,6 +9,8 @@ import java.util.List;
 /**
  * Title: Solution1
  * Description:
+ * 给定一个数组candies和额外的糖果数量extraCandies，假定将额外的糖果都给其中的一个小朋友，判断其数量能否成为当中数量最多的。
+ * 返回数组List<Boolean>
  *
  * @author Lin Hui
  * Created on 2021/2/10 10:06:10
