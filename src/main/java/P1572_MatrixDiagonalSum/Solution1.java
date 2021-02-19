@@ -8,6 +8,7 @@ import org.junit.Test;
  * Description:
  * 给定一个N*N的矩阵，计算对角线元素的和。
  * 两次遍历分别取两个对角线元素的和，如果矩阵每行长度N为奇数，则意味着矩阵中心的元素重复累加，需要减掉。
+ * 最优解：sum += mat[r][r] + mat[r][n - r- 1];，一遍循环，即可取到两个对角线的元素和。
  *
  * @author Lin Hui
  * Created on 2021/2/19 22:07:21
