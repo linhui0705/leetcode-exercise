@@ -29,7 +29,10 @@ public class Solution1 {
             if (nums[i] > nums[(i + 1) % nums.length]) {
                 times++;
             }
+            if (times >= 2) {
+                return false;
+            }
         }
-        return times <= 1;
+        return true;
     }
 }
