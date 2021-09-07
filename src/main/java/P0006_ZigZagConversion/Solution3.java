@@ -22,7 +22,7 @@ public class Solution3 {
     }
 
     public String convert(String s, int numRows) {
-        if (numRows == 1) {
+        if (numRows == 1 || s.length() < numRows) {
             return s;
         }
         Map<Integer, StringBuilder> map = new HashMap<>(numRows);
